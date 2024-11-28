@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marcos - MUICKYS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px 10px;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .product img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product p {
+            font-size: 18px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .product .price {
+            font-size: 20px;
+            color: green;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MUICKYS - Marcos</h1>
+        <p>Marcos exclusivos para fotos y recuerdos especiales</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="llaveros.html">Llaveros</a>
+        <a href="marcos.html">Marcos</a> <!-- Asegúrate de que el enlace esté correcto -->
+        <a href="piramides.html">Pirámides</a>
+        <a href="marcapaginas.html">Marcapáginas</a>
+        <a href="contacto.html">Contáctanos</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="product">
+            <img src="imagenes/marco.jpg" alt="Marco personalizado">
+            <p>Marcos artesanales para tus fotos más queridas.</p>
+            <p class="price">$15.00</p>
+        </div>
+        
+        <div class="product">
+            <img src="imagenes/marco2.jpg" alt="Marco elegante">
+            <p>Marcos de lujo para darle un toque especial a tu decoración.</p>
+            <p class="price">$18.00</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MUICKYS - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

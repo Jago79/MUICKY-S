@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pirámides - MUICKYS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px 10px;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .product img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product p {
+            font-size: 18px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .product .price {
+            font-size: 20px;
+            color: green;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MUICKYS - Pirámides</h1>
+        <p>Pirámides decorativas y únicas para tu hogar y oficina</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="llaveros.html">Llaveros</a>
+        <a href="marcos.html">Marcos</a>
+        <a href="piramides.html">Pirámides</a> <!-- Este enlace debe llevar a esta página -->
+        <a href="marcapaginas.html">Marcapáginas</a>
+        <a href="contacto.html">Contáctanos</a>
+    </nav>
+
+    <div class="main-content">
+        <!-- Producto 1 -->
+        <div class="product">
+            <img src="imagenes/piramide1.jpg" alt="Pirámide de cristal">
+            <p>Pirámide de cristal con detalles dorados, perfecta para decorar cualquier espacio.</p>
+            <p class="price">$20.00</p>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product">
+            <img src="imagenes/piramide2.jpg" alt="Pirámide de resina">
+            <p>Pirámide de resina con diseño único, ideal para coleccionistas y amantes de la decoración.</p>
+            <p class="price">$25.00</p>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product">
+            <img src="imagenes/piramide3.jpg" alt="Pirámide de madera">
+            <p>Pirámide de madera con detalles tallados a mano, aportando un toque rústico y elegante.</p>
+            <p class="price">$18.00</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MUICKYS - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
